@@ -19,7 +19,7 @@ body{
     to{background-position: 100% 100%;}
 }
 section{
-    padding: 45px;
+    padding: 35px;
     background-color: #fff;
     width: 500px;
     border-radius: 15px;
@@ -36,7 +36,7 @@ header img{
 }
 header h3{
     color: #63a0e6;
-    font-size: 1.35rem;
+    font-size: 2rem;
 }
 main{
     display: flex;
@@ -46,9 +46,10 @@ main{
 }
 main a{
     background: #D93D04;
-    padding: 15px 0;
+    padding: 50px 0;
     text-decoration: none;
     color: #fff;
+    font-size: 1.5rem;
     border-radius: 3px;
     box-shadow: 10px 10px #b0a7a1
     ;
@@ -56,12 +57,6 @@ main a{
 }
 main a:hover{
     opacity: .85;
-}
-.footer{
-    position: absolute;
-    bottom: 10px;
-    color: #fff;
-    font-size: 1rem;
 }
 @media (max-width: 520px){
     section{
